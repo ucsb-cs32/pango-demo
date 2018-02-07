@@ -63,7 +63,7 @@ int main (int argc, char **argv)
 
   if (argc != 2)
     {
-      g_printerr ("Usage: cairosimple OUTPUT_FILENAME\n");
+      g_printerr ("Usage: cairosimple filename.png\n");
       return 1;
     }
 
